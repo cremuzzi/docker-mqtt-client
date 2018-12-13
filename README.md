@@ -5,5 +5,5 @@ This image contains a sample MQTT client written in GO. The original source code
 ## Quickstart
 
 ```sh
-docker run --rm -i -t cremuzzi/mqtt-client mqtt -action sub -broker tcp://iot.eclipse.org:1883 -topic "#"
+docker run --rm cremuzzi/mqtt-client mqtt -action sub -broker tcp://iot.eclipse.org:1883 -topic "#"
 ```
